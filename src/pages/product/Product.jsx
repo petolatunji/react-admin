@@ -1,7 +1,12 @@
-import React from 'react'
+import SingleProduct from '../../components/singleProduct/SingleProduct'
+import { singleProduct } from '../../data'
 
 const Product = () => {
-  return <div>Product</div>
+  return (
+    <div>
+      <SingleProduct {...singleProduct} />
+    </div>
+  )
 }
 
 export default Product

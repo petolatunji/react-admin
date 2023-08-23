@@ -37,7 +37,7 @@ const DataTable = (props) => {
     },
   }
   return (
-    <div className='bg-white p-4'>
+    <div className='bg-white p-4 hidden xl:block'>
       <Box sx={{ height: '100%', width: '100%' }}>
         <DataGrid
           rows={props.rows}
