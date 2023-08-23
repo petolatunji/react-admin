@@ -1,6 +1,4 @@
-import React from 'react'
-import { BiSolidDashboard } from 'react-icons/bi'
-import { AiOutlineUser } from 'react-icons/ai'
+import { AiOutlineUser, AiOutlineHome } from 'react-icons/ai'
 import { MdOutlineProductionQuantityLimits, MdHelpCenter } from 'react-icons/md'
 import { FcSettings } from 'react-icons/fc'
 import { Link } from 'react-router-dom'
@@ -10,9 +8,9 @@ const Menu = () => {
     <div className=' flex flex-col  gap-y-4 '>
       <Link
         to='/'
-        className='bg-blue-800 text-white flex gap-x-2 items-center p-2 rounded-md'
+        className='bg-blue-500 text-white flex gap-x-2 items-center p-2 rounded-md'
       >
-        <BiSolidDashboard />
+        <AiOutlineHome />
         <span className='hidden xl:block'>Dashboard</span>
       </Link>
       <Link to='/users' className='menudash hover:bg-slate-200 '>
